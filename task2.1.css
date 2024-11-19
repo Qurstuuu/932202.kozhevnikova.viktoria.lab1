@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div{
+    font-size: 20px;
+    height: 80px;
+    line-height: 1.5;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.header{ 
+    background-color: #EAEAEA;
+}
+.sidebar{
+    background-color: #C8FC98;
+    float: left;
+    width: 200px;
+    height: fit-content;
+}
+.main{
+    height: 200px;
+    margin-left: 220px;
+}
+h1 {
+    font-size: xx-large;
+}
+p {
+    font-size: large;
+}

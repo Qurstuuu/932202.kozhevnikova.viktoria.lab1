@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  background-color: aqua;
+}
+
+.sidebar{
+  padding: 16px;
+  padding-left: 40px;
+  background-color: bisque;
+  float: left;
+  width: 200px;
+}
+
+.main{
+  height: fit-content;
+  background-color: darkgray;
+  margin-left: 200px;
+}
+
+.footer{
+  background-color: limegreen;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+}

@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hamster{
+  width: 300px;
+  height: 265px;
+  float: right;
+}
+
+.wrapper{
+  background-color: aqua;
+  border: solid 1px green;
+  margin: 10px;
+}
+
+.sidebar{
+  height: fit-content;
+  min-height: 265px;
+}

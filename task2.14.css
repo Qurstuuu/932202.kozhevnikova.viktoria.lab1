@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar{
+  padding: 16px;
+  padding-left: 40px;
+  background-color: bisque;
+  max-height: 96px;
+  min-width: 300px;
+}
+
+.main{
+  height: fit-content;
+  background-color: darkgray;
+}
+
+@media screen and (max-width: 800px){
+  .wrapper{
+    flex-direction: column;
+  }
+
+  .sidebar ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+  }
+
+  .sidebar il{
+    padding: 0;
+  }
+}

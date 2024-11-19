@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+div{
+  font-size: 20px;
+  background-color: white;
+  margin: 20px;
+}
+.block1{
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+}
+.block2{
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  border: solid 10px blue;
+  padding: 50px;
+  box-sizing: border-box;
+}
